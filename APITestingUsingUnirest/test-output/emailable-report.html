@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Smoke Test</td><td class="numi">32</td><td class="numi">32</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">108.6 seconds</td><td class="numi">frontdeskcreate frontdesk frontdeskview </td><td class="numi">admincreate webview tst web adminview admin tst1 webcreate </td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Smoke Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="3">com.hms.APITestingUsingUnirest.SmokeTest</td><td><a href="#m1"><b>UC_FD_30_TC_1_getgroupcancellationcharge</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685822724</td><td class="numi">3395</td></tr><tr class="failedodd"><td><a href="#m2"><b>UC_FD_37_TC_1_movebooking</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685829541</td><td class="numi">4584</td></tr><tr class="failedodd"><td><a href="#m3"><b>UC_FD_54_TC_1_addoccupancies</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685852140</td><td class="numi">9376</td></tr>
+<tr><th colspan="4">Smoke Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="32">com.hms.APITestingUsingUnirest.SmokeTest</td><td><a href="#m4"><b>UC_FD_13_TC_1_getusers</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685779892</td><td class="numi">1358</td></tr><tr class="passedodd"><td><a href="#m5"><b>UC_FD_14_TC_1_getdnrs</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685781255</td><td class="numi">1176</td></tr><tr class="passedodd"><td><a href="#m6"><b>UC_FD_15_TC_1_gethousestatus</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685782433</td><td class="numi">1347</td></tr><tr class="passedodd"><td><a href="#m7"><b>UC_FD_16_TC_1_gethoteldata</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685783782</td><td class="numi">1248</td></tr><tr class="passedodd"><td><a href="#m8"><b>UC_FD_17_TC_1_getcheckins</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685785031</td><td class="numi">1367</td></tr><tr class="passedodd"><td><a href="#m9"><b>UC_FD_18_TC_1_getcheckouts</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685786400</td><td class="numi">1248</td></tr><tr class="passedodd"><td><a href="#m10"><b>UC_FD_19_TC_1_getbookings</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685787649</td><td class="numi">2187</td></tr><tr class="passedodd"><td><a href="#m11"><b>UC_FD_20_TC_1_getbookingsearch</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685789837</td><td class="numi">1472</td></tr><tr class="passedodd"><td><a href="#m12"><b>UC_FD_21_TC_1_getbooking</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685791314</td><td class="numi">3199</td></tr><tr class="passedodd"><td><a href="#m13"><b>UC_FD_22_TC_1_getgroup</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685794517</td><td class="numi">3873</td></tr><tr class="passedodd"><td><a href="#m14"><b>UC_FD_23_TC_1_getaccountstatements</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685798392</td><td class="numi">3217</td></tr><tr class="passedodd"><td><a href="#m15"><b>UC_FD_24_TC_1_getinvoices</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685801612</td><td class="numi">2650</td></tr><tr class="passedodd"><td><a href="#m16"><b>UC_FD_25_TC_1_getinvoice</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685804263</td><td class="numi">1162</td></tr><tr class="passedodd"><td><a href="#m17"><b>UC_FD_26_TC_1_getearlycheckincharge</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685805426</td><td class="numi">4019</td></tr><tr class="passedodd"><td><a href="#m18"><b>UC_FD_27_TC_1_getearlycheckoutcharge</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685809446</td><td class="numi">3490</td></tr><tr class="passedodd"><td><a href="#m19"><b>UC_FD_29_TC_1_getratestochange</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685812937</td><td class="numi">9786</td></tr><tr class="passedodd"><td><a href="#m20"><b>UC_FD_31_TC_1_getdepositamount</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685826121</td><td class="numi">3419</td></tr><tr class="passedodd"><td><a href="#m21"><b>UC_FD_3_TC_1_editbooking</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685834126</td><td class="numi">3542</td></tr><tr class="passedodd"><td><a href="#m22"><b>UC_FD_4_TC_1_commitedbooking</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685837669</td><td class="numi">5525</td></tr><tr class="passedodd"><td><a href="#m23"><b>UC_FD_50_TC_1_adddnrs</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685843195</td><td class="numi">2621</td></tr><tr class="passedodd"><td><a href="#m24"><b>UC_FD_51_TC_1_deletednrs</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685845817</td><td class="numi">2567</td></tr><tr class="passedodd"><td><a href="#m25"><b>UC_FD_52_TC_1_editdnrs</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685848385</td><td class="numi">2617</td></tr><tr class="passedodd"><td><a href="#m26"><b>UC_FD_53_TC_1_keepalive</b> (frontdesk) </a></td><td class="numi">1</td><td>1499685851004</td><td class="numi">1131</td></tr><tr class="passedodd"><td><a href="#m27"><b>UC_FD_55_TC_1_changepayterm</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685861518</td><td class="numi">3262</td></tr><tr class="passedodd"><td><a href="#m28"><b>UC_FD_56_TC_1_checknightauditstatus</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685864781</td><td class="numi">1124</td></tr><tr class="passedodd"><td><a href="#m29"><b>UC_FD_57_TC_1_consolidateaccount</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685865906</td><td class="numi">3587</td></tr><tr class="passedodd"><td><a href="#m30"><b>UC_FD_58_TC_1_deleteproformainvoice</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685869494</td><td class="numi">3478</td></tr><tr class="passedodd"><td><a href="#m31"><b>UC_FD_59_TC_1_earlycheckout</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685872973</td><td class="numi">3346</td></tr><tr class="passedodd"><td><a href="#m32"><b>UC_FD_5_TC_1_closeeditbooking</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685876320</td><td class="numi">4948</td></tr><tr class="passedodd"><td><a href="#m33"><b>UC_FD_70_TC_1_guestlookup</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685881269</td><td class="numi">1437</td></tr><tr class="passedodd"><td><a href="#m34"><b>UC_FD_84_TC_1_sendbookingemail</b> (frontdeskcreate) </a></td><td class="numi">1</td><td>1499685882706</td><td class="numi">4503</td></tr><tr class="passedodd"><td><a href="#m35"><b>UC_FD_9_TC_1_getroomtypestochange</b> (frontdeskview) </a></td><td class="numi">1</td><td>1499685887209</td><td class="numi">1220</td></tr>
+</table>
+<h1>Smoke Test</h1>
+<h2 id="m1">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_37_TC_1_movebooking</h2>
+<div style="padding-left:3em">
+<p>expected [success] but found [move not possible, booking not in valid for move]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_37_TC_1_movebooking(SmokeTest.java:325)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_54_TC_1_addoccupancies</h2>
+<div style="padding-left:3em">
+<p>expected [success] but found [booking status is Checkout(fvtlzphAgw||)]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_54_TC_1_addoccupancies(SmokeTest.java:382)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_30_TC_1_getgroupcancellationcharge</h2>
+<div style="padding-left:3em">
+<p>JSONArray[-2] not found.</p>
+org.json.JSONArray.get(JSONArray.java:194)
+<br/>at org.json.JSONArray.getJSONObject(JSONArray.java:292)
+<br/>at com.hms.APITestingUsingUnirest.Getbookings.extractinggroupmainid(Getbookings.java:202)
+<br/>at com.hms.APITestingUsingUnirest.Editbooking.Editbookingcall(Editbooking.java:128)
+<br/>at com.hms.APITestingUsingUnirest.Getgroupcancelcharge.Getgroupcancelchargecall(Getgroupcancelcharge.java:68)
+<br/>at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_30_TC_1_getgroupcancellationcharge(SmokeTest.java:285)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_9_TC_1_getroomtypestochange</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_19_TC_1_getbookings</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_57_TC_1_consolidateaccount</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_24_TC_1_getinvoices</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_4_TC_1_commitedbooking</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_53_TC_1_keepalive</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_13_TC_1_getusers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_29_TC_1_getratestochange</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_31_TC_1_getdepositamount</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_16_TC_1_gethoteldata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_84_TC_1_sendbookingemail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_22_TC_1_getgroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_18_TC_1_getcheckouts</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_26_TC_1_getearlycheckincharge</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_50_TC_1_adddnrs</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_52_TC_1_editdnrs</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_14_TC_1_getdnrs</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_56_TC_1_checknightauditstatus</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_25_TC_1_getinvoice</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_15_TC_1_gethousestatus</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_58_TC_1_deleteproformainvoice</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_5_TC_1_closeeditbooking</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_59_TC_1_earlycheckout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_70_TC_1_guestlookup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_17_TC_1_getcheckins</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_23_TC_1_getaccountstatements</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_27_TC_1_getearlycheckoutcharge</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_55_TC_1_changepayterm</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_51_TC_1_deletednrs</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_21_TC_1_getbooking</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_20_TC_1_getbookingsearch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">com.hms.APITestingUsingUnirest.SmokeTest:UC_FD_3_TC_1_editbooking</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

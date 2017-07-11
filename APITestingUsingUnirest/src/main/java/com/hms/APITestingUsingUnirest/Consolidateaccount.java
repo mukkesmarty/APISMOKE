@@ -1,0 +1,109 @@
+package com.hms.APITestingUsingUnirest;
+
+import org.json.JSONObject;
+import org.testng.Assert;
+import org.testng.annotations.*;
+
+import com.google.gson.Gson;
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
+import com.mashape.unirest.http.Unirest;
+import com.mashape.unirest.http.exceptions.UnirestException;
+import com.hms.APITestingUsingUnirest.CommonConfig;
+
+public class Consolidateaccount
+{
+	static String responseJSONString;
+	static String finalloginaccesskey;
+	String serverurl;
+	String hotelid1;
+	String key;
+	String emailid;
+	String password;
+	String keytype;
+	String accesskey;
+	String bookingtype;
+	String mainbookingid;
+	
+	public void Consolidateaccountcall(String s1,String s2)
+	{
+		keytype = s1;
+		bookingtype = s2;
+		System.out.println("keytype:"+s1);
+		System.out.println("keytype:"+s2);
+		
+		if(keytype == "wsauth")
+		{
+			/*Wsauth objwsauth = new Wsauth();
+			objwsauth.Wsauthcall();
+			String keyw = objwsauth.extractingWsauthKey();
+			accesskey = keyw;
+			System.out.println("wsauth key in getallpaytypes"+ keyw);*/
+			
+			String keyw = Wsauth.wsauthkeyfinalstring;
+			accesskey = keyw;
+			System.out.println("wsauthkey in consolidateaccount:"+keyw);
+			
+			
+		}
+		
+		else if(keytype == "login")
+		{
+			/*Login objlogin = new Login();
+			objlogin.Logincall();
+			String keyl = objlogin.extractingLoginKey();
+			System.out.println("login key in gethousestatus:"+keyl);
+			accesskey = keyl;*/
+			
+			String keyl = Login.finalloginaccesskey;
+			System.out.println("login key in consolidateaccount:"+accesskey);
+			accesskey = keyl;
+		}
+		
+		try
+		{
+			serverurl = CommonConfig.serverurl;
+			
+			if(bookingtype == "S")
+			{
+				Getbookings getbookingsobj = new Getbookings();
+				getbookingsobj.Getbookingscall(keytype);
+				mainbookingid = getbookingsobj.extractingmainid();
+			}
+			else
+			{
+				Getbookings getbookingsobj = new Getbookings();
+				getbookingsobj.Getbookingscall(keytype);
+				mainbookingid = getbookingsobj.extractinggroupmainid();
+			}
+			
+			HttpResponse<JsonNode> responseconsolidateaccount = Unirest.post(""+serverurl+"/ws/web/consolidateaccount")
+					  .header("content-type", "application/json")
+					  .header("x-ig-sg", "D_gg%fkl85_j")
+					  .header("cache-control", "no-cache")
+					  .header("postman-token", "1fa321be-5d1b-c662-3e0c-eb1f4691e860")
+					  .body("{\r\n  \"hotelogix\": {\r\n    \"version\": \"1.0\",\r\n    \"datetime\": \"2012-01-16T10:10:15\",\r\n    \"request\": {\r\n      \"method\": \"consolidateaccount\",\r\n      \"key\": \""+accesskey+"\",\r\n      \"data\": {\r\n        \"id\": \""+mainbookingid+"\",\r\n        \"type\":\""+bookingtype+"\"\r\n      }\r\n    }\r\n  }\r\n}")
+					  .asJson();
+			
+			JsonNode body = responseconsolidateaccount.getBody();
+			responseJSONString = body.toString();
+			System.out.println(responseJSONString);
+		}
+		
+		catch(UnirestException e)
+		{
+			e.printStackTrace();
+		}
+		
+	}// End of Consolidateaccountcall() method
+	
+	public String extractingmessageconsolidteaccount()
+	{
+		String localresponseJSONString = responseJSONString;
+		JSONObject jsonResult = new JSONObject(localresponseJSONString);
+		String consolidateaccountstring;
+		consolidateaccountstring = jsonResult.getJSONObject("hotelogix").getJSONObject("response").getJSONObject("status").getString("message");
+		System.out.println("at last consolidateaccount success:"+consolidateaccountstring);
+		return consolidateaccountstring;
+	}// End of extractingmessageconsolidteaccount() method
+}// End of class
