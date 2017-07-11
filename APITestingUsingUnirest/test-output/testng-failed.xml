@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API Automation test run]">
+  <test name="Smoke Test(failed)">
+    <groups>
+      <run>
+        <include name="frontdesk"/>
+        <exclude name="admin"/>
+        <exclude name="web"/>
+        <exclude name="tst"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hms.APITestingUsingUnirest.SmokeTest">
+        <methods>
+          <include name="UC_FD_54_TC_1_addoccupancies"/>
+          <include name="beforesuite"/>
+          <include name="UC_FD_30_TC_1_getgroupcancellationcharge"/>
+          <include name="UC_FD_37_TC_1_movebooking"/>
+        </methods>
+      </class> <!-- com.hms.APITestingUsingUnirest.SmokeTest -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [API Automation test run] -->

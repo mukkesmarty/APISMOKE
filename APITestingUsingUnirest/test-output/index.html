@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-API_Automation_test_run">
+              <span class="suite-name border-failed">API Automation test run</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-API_Automation_test_run">
+                    <span>D:\myworkspace\APITestingUsingUnirest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-API_Automation_test_run">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-API_Automation_test_run">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-API_Automation_test_run">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-API_Automation_test_run">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-API_Automation_test_run">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-API_Automation_test_run">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods, 3 failed,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-API_Automation_test_run" class="hide-methods failed suite-API_Automation_test_run"> (hide)</a> <!-- hide-methods failed suite-API_Automation_test_run -->
+                      <a href="#" panel-name="suite-API_Automation_test_run" class="show-methods failed suite-API_Automation_test_run"> (show)</a> <!-- show-methods failed suite-API_Automation_test_run -->
+                    </span>
+                    <div class="method-list-content failed suite-API_Automation_test_run">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_30_TC_1_getgroupcancellationcharge">UC_FD_30_TC_1_getgroupcancellationcharge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_37_TC_1_movebooking">UC_FD_37_TC_1_movebooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_54_TC_1_addoccupancies">UC_FD_54_TC_1_addoccupancies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-API_Automation_test_run -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_Automation_test_run" class="hide-methods passed suite-API_Automation_test_run"> (hide)</a> <!-- hide-methods passed suite-API_Automation_test_run -->
+                      <a href="#" panel-name="suite-API_Automation_test_run" class="show-methods passed suite-API_Automation_test_run"> (show)</a> <!-- show-methods passed suite-API_Automation_test_run -->
+                    </span>
+                    <div class="method-list-content passed suite-API_Automation_test_run">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_13_TC_1_getusers">UC_FD_13_TC_1_getusers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_14_TC_1_getdnrs">UC_FD_14_TC_1_getdnrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_15_TC_1_gethousestatus">UC_FD_15_TC_1_gethousestatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_16_TC_1_gethoteldata">UC_FD_16_TC_1_gethoteldata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_17_TC_1_getcheckins">UC_FD_17_TC_1_getcheckins</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_18_TC_1_getcheckouts">UC_FD_18_TC_1_getcheckouts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_19_TC_1_getbookings">UC_FD_19_TC_1_getbookings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_20_TC_1_getbookingsearch">UC_FD_20_TC_1_getbookingsearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_21_TC_1_getbooking">UC_FD_21_TC_1_getbooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_22_TC_1_getgroup">UC_FD_22_TC_1_getgroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_23_TC_1_getaccountstatements">UC_FD_23_TC_1_getaccountstatements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_24_TC_1_getinvoices">UC_FD_24_TC_1_getinvoices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_25_TC_1_getinvoice">UC_FD_25_TC_1_getinvoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_26_TC_1_getearlycheckincharge">UC_FD_26_TC_1_getearlycheckincharge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_27_TC_1_getearlycheckoutcharge">UC_FD_27_TC_1_getearlycheckoutcharge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_29_TC_1_getratestochange">UC_FD_29_TC_1_getratestochange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_31_TC_1_getdepositamount">UC_FD_31_TC_1_getdepositamount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_3_TC_1_editbooking">UC_FD_3_TC_1_editbooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_4_TC_1_commitedbooking">UC_FD_4_TC_1_commitedbooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_50_TC_1_adddnrs">UC_FD_50_TC_1_adddnrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_51_TC_1_deletednrs">UC_FD_51_TC_1_deletednrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_52_TC_1_editdnrs">UC_FD_52_TC_1_editdnrs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_53_TC_1_keepalive">UC_FD_53_TC_1_keepalive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_55_TC_1_changepayterm">UC_FD_55_TC_1_changepayterm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_56_TC_1_checknightauditstatus">UC_FD_56_TC_1_checknightauditstatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_57_TC_1_consolidateaccount">UC_FD_57_TC_1_consolidateaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_58_TC_1_deleteproformainvoice">UC_FD_58_TC_1_deleteproformainvoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_59_TC_1_earlycheckout">UC_FD_59_TC_1_earlycheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_5_TC_1_closeeditbooking">UC_FD_5_TC_1_closeeditbooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_70_TC_1_guestlookup">UC_FD_70_TC_1_guestlookup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_84_TC_1_sendbookingemail">UC_FD_84_TC_1_sendbookingemail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Automation_test_run" title="com.hms.APITestingUsingUnirest.SmokeTest" hash-for-method="UC_FD_9_TC_1_getroomtypestochange">UC_FD_9_TC_1_getroomtypestochange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_Automation_test_run -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API_Automation_test_run" class="panel API_Automation_test_run">
+          <div class="suite-API_Automation_test_run-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hms.APITestingUsingUnirest.SmokeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_30_TC_1_getgroupcancellationcharge">
+                  </a> <!-- UC_FD_30_TC_1_getgroupcancellationcharge -->
+                  <span class="method-name">UC_FD_30_TC_1_getgroupcancellationcharge</span>
+                  <div class="stack-trace"><b>"org.json.JSONException: JSONArray[-2] not found.
+	at org.json.JSONArray.get(JSONArray.java:194)
+	at org.json.JSONArray.getJSONObject(JSONArray.java:292)
+	at com.hms.APITestingUsingUnirest.Getbookings.extractinggroupmainid(Getbookings.java:202)
+	at com.hms.APITestingUsingUnirest.Editbooking.Editbookingcall(Editbooking.java:128)
+	at com.hms.APITestingUsingUnirest.Getgroupcancelcharge.Getgroupcancelchargecall(Getgroupcancelcharge.java:68)
+	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_30_TC_1_getgroupcancellationcharge(SmokeTest.java:285)
+... Removed 24 stack frames<br/> org.json.JSONException: JSONArray[-2] not found.
+	at org.json.JSONArray.get(JSONArray.java:194)
+	at org.json.JSONArray.getJSONObject(JSONArray.java:292)
+	at com.hms.APITestingUsingUnirest.Getbookings.extractinggroupmainid(Getbookings.java:202)
+	at com.hms.APITestingUsingUnirest.Editbooking.Editbookingcall(Editbooking.java:128)
+	at com.hms.APITestingUsingUnirest.Getgroupcancelcharge.Getgroupcancelchargecall(Getgroupcancelcharge.java:68)
+	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_30_TC_1_getgroupcancellationcharge(SmokeTest.java:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+"</b><br>org.json.JSONArray.get(JSONArray.java:194)<br>org.json.JSONArray.getJSONObject(JSONArray.java:292)<br>com.hms.APITestingUsingUnirest.Getbookings.extractinggroupmainid(Getbookings.java:202)<br>com.hms.APITestingUsingUnirest.Editbooking.Editbookingcall(Editbooking.java:128)<br>com.hms.APITestingUsingUnirest.Getgroupcancelcharge.Getgroupcancelchargecall(Getgroupcancelcharge.java:68)<br>com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_30_TC_1_getgroupcancellationcharge(SmokeTest.java:285)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_37_TC_1_movebooking">
+                  </a> <!-- UC_FD_37_TC_1_movebooking -->
+                  <span class="method-name">UC_FD_37_TC_1_movebooking</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [success] but found [move not possible, booking not in valid for move]
+	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_37_TC_1_movebooking(SmokeTest.java:325)
+... Removed 29 stack frames<br/> java.lang.AssertionError: expected [success] but found [move not possible, booking not in valid for move]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_37_TC_1_movebooking(SmokeTest.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertEquals(Assert.java:123)<br>org.testng.Assert.assertEquals(Assert.java:176)<br>org.testng.Assert.assertEquals(Assert.java:186)<br>com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_37_TC_1_movebooking(SmokeTest.java:325)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_54_TC_1_addoccupancies">
+                  </a> <!-- UC_FD_54_TC_1_addoccupancies -->
+                  <span class="method-name">UC_FD_54_TC_1_addoccupancies</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [success] but found [booking status is Checkout(fvtlzphAgw||)]
+	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_54_TC_1_addoccupancies(SmokeTest.java:382)
+... Removed 29 stack frames<br/> java.lang.AssertionError: expected [success] but found [booking status is Checkout(fvtlzphAgw||)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_54_TC_1_addoccupancies(SmokeTest.java:382)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertEquals(Assert.java:123)<br>org.testng.Assert.assertEquals(Assert.java:176)<br>org.testng.Assert.assertEquals(Assert.java:186)<br>com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_54_TC_1_addoccupancies(SmokeTest.java:382)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Automation_test_run-class-failed -->
+          <div class="suite-API_Automation_test_run-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hms.APITestingUsingUnirest.SmokeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_13_TC_1_getusers">
+                  </a> <!-- UC_FD_13_TC_1_getusers -->
+                  <span class="method-name">UC_FD_13_TC_1_getusers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_14_TC_1_getdnrs">
+                  </a> <!-- UC_FD_14_TC_1_getdnrs -->
+                  <span class="method-name">UC_FD_14_TC_1_getdnrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_15_TC_1_gethousestatus">
+                  </a> <!-- UC_FD_15_TC_1_gethousestatus -->
+                  <span class="method-name">UC_FD_15_TC_1_gethousestatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_16_TC_1_gethoteldata">
+                  </a> <!-- UC_FD_16_TC_1_gethoteldata -->
+                  <span class="method-name">UC_FD_16_TC_1_gethoteldata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_17_TC_1_getcheckins">
+                  </a> <!-- UC_FD_17_TC_1_getcheckins -->
+                  <span class="method-name">UC_FD_17_TC_1_getcheckins</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_18_TC_1_getcheckouts">
+                  </a> <!-- UC_FD_18_TC_1_getcheckouts -->
+                  <span class="method-name">UC_FD_18_TC_1_getcheckouts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_19_TC_1_getbookings">
+                  </a> <!-- UC_FD_19_TC_1_getbookings -->
+                  <span class="method-name">UC_FD_19_TC_1_getbookings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_20_TC_1_getbookingsearch">
+                  </a> <!-- UC_FD_20_TC_1_getbookingsearch -->
+                  <span class="method-name">UC_FD_20_TC_1_getbookingsearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_21_TC_1_getbooking">
+                  </a> <!-- UC_FD_21_TC_1_getbooking -->
+                  <span class="method-name">UC_FD_21_TC_1_getbooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_22_TC_1_getgroup">
+                  </a> <!-- UC_FD_22_TC_1_getgroup -->
+                  <span class="method-name">UC_FD_22_TC_1_getgroup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_23_TC_1_getaccountstatements">
+                  </a> <!-- UC_FD_23_TC_1_getaccountstatements -->
+                  <span class="method-name">UC_FD_23_TC_1_getaccountstatements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_24_TC_1_getinvoices">
+                  </a> <!-- UC_FD_24_TC_1_getinvoices -->
+                  <span class="method-name">UC_FD_24_TC_1_getinvoices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_25_TC_1_getinvoice">
+                  </a> <!-- UC_FD_25_TC_1_getinvoice -->
+                  <span class="method-name">UC_FD_25_TC_1_getinvoice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_26_TC_1_getearlycheckincharge">
+                  </a> <!-- UC_FD_26_TC_1_getearlycheckincharge -->
+                  <span class="method-name">UC_FD_26_TC_1_getearlycheckincharge</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_27_TC_1_getearlycheckoutcharge">
+                  </a> <!-- UC_FD_27_TC_1_getearlycheckoutcharge -->
+                  <span class="method-name">UC_FD_27_TC_1_getearlycheckoutcharge</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_29_TC_1_getratestochange">
+                  </a> <!-- UC_FD_29_TC_1_getratestochange -->
+                  <span class="method-name">UC_FD_29_TC_1_getratestochange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_31_TC_1_getdepositamount">
+                  </a> <!-- UC_FD_31_TC_1_getdepositamount -->
+                  <span class="method-name">UC_FD_31_TC_1_getdepositamount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_3_TC_1_editbooking">
+                  </a> <!-- UC_FD_3_TC_1_editbooking -->
+                  <span class="method-name">UC_FD_3_TC_1_editbooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_4_TC_1_commitedbooking">
+                  </a> <!-- UC_FD_4_TC_1_commitedbooking -->
+                  <span class="method-name">UC_FD_4_TC_1_commitedbooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_50_TC_1_adddnrs">
+                  </a> <!-- UC_FD_50_TC_1_adddnrs -->
+                  <span class="method-name">UC_FD_50_TC_1_adddnrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_51_TC_1_deletednrs">
+                  </a> <!-- UC_FD_51_TC_1_deletednrs -->
+                  <span class="method-name">UC_FD_51_TC_1_deletednrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_52_TC_1_editdnrs">
+                  </a> <!-- UC_FD_52_TC_1_editdnrs -->
+                  <span class="method-name">UC_FD_52_TC_1_editdnrs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_53_TC_1_keepalive">
+                  </a> <!-- UC_FD_53_TC_1_keepalive -->
+                  <span class="method-name">UC_FD_53_TC_1_keepalive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_55_TC_1_changepayterm">
+                  </a> <!-- UC_FD_55_TC_1_changepayterm -->
+                  <span class="method-name">UC_FD_55_TC_1_changepayterm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_56_TC_1_checknightauditstatus">
+                  </a> <!-- UC_FD_56_TC_1_checknightauditstatus -->
+                  <span class="method-name">UC_FD_56_TC_1_checknightauditstatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_57_TC_1_consolidateaccount">
+                  </a> <!-- UC_FD_57_TC_1_consolidateaccount -->
+                  <span class="method-name">UC_FD_57_TC_1_consolidateaccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_58_TC_1_deleteproformainvoice">
+                  </a> <!-- UC_FD_58_TC_1_deleteproformainvoice -->
+                  <span class="method-name">UC_FD_58_TC_1_deleteproformainvoice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_59_TC_1_earlycheckout">
+                  </a> <!-- UC_FD_59_TC_1_earlycheckout -->
+                  <span class="method-name">UC_FD_59_TC_1_earlycheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_5_TC_1_closeeditbooking">
+                  </a> <!-- UC_FD_5_TC_1_closeeditbooking -->
+                  <span class="method-name">UC_FD_5_TC_1_closeeditbooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_70_TC_1_guestlookup">
+                  </a> <!-- UC_FD_70_TC_1_guestlookup -->
+                  <span class="method-name">UC_FD_70_TC_1_guestlookup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_84_TC_1_sendbookingemail">
+                  </a> <!-- UC_FD_84_TC_1_sendbookingemail -->
+                  <span class="method-name">UC_FD_84_TC_1_sendbookingemail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UC_FD_9_TC_1_getroomtypestochange">
+                  </a> <!-- UC_FD_9_TC_1_getroomtypestochange -->
+                  <span class="method-name">UC_FD_9_TC_1_getroomtypestochange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Automation_test_run-class-passed -->
+        </div> <!-- panel API_Automation_test_run -->
+        <div panel-name="test-xml-API_Automation_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\myworkspace\APITestingUsingUnirest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;API Automation test run&quot;&gt;
+  &lt;test name=&quot;Smoke Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;tst&quot;&gt;
+        &lt;include name=&quot;tst1&quot;/&gt;
+      &lt;/define&gt; &lt;!-- tst --&gt;
+      &lt;define name=&quot;web&quot;&gt;
+        &lt;include name=&quot;webview&quot;/&gt;
+        &lt;include name=&quot;webcreate&quot;/&gt;
+      &lt;/define&gt; &lt;!-- web --&gt;
+      &lt;define name=&quot;frontdesk&quot;&gt;
+        &lt;include name=&quot;frontdeskview&quot;/&gt;
+        &lt;include name=&quot;frontdeskcreate&quot;/&gt;
+      &lt;/define&gt; &lt;!-- frontdesk --&gt;
+      &lt;define name=&quot;admin&quot;&gt;
+        &lt;include name=&quot;adminview&quot;/&gt;
+        &lt;include name=&quot;admincreate&quot;/&gt;
+      &lt;/define&gt; &lt;!-- admin --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;frontdesk&quot;/&gt;
+        &lt;exclude name=&quot;admin&quot;/&gt;
+        &lt;exclude name=&quot;web&quot;/&gt;
+        &lt;exclude name=&quot;tst&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hms.APITestingUsingUnirest.SmokeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke Test --&gt;
+&lt;/suite&gt; &lt;!-- API Automation test run --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_Automation_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API Automation test run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Smoke Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_Automation_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API Automation test run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">frontdesk</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_53_TC_1_keepalive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">frontdeskcreate</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_37_TC_1_movebooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_3_TC_1_editbooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_4_TC_1_commitedbooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_50_TC_1_adddnrs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_51_TC_1_deletednrs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_52_TC_1_editdnrs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_54_TC_1_addoccupancies</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_55_TC_1_changepayterm</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_57_TC_1_consolidateaccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_58_TC_1_deleteproformainvoice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_59_TC_1_earlycheckout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_5_TC_1_closeeditbooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_84_TC_1_sendbookingemail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">frontdeskview</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_13_TC_1_getusers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_14_TC_1_getdnrs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_15_TC_1_gethousestatus</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_16_TC_1_gethoteldata</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_17_TC_1_getcheckins</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_18_TC_1_getcheckouts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_19_TC_1_getbookings</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_20_TC_1_getbookingsearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_21_TC_1_getbooking</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_22_TC_1_getgroup</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_23_TC_1_getaccountstatements</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_24_TC_1_getinvoices</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_25_TC_1_getinvoice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_26_TC_1_getearlycheckincharge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_27_TC_1_getearlycheckoutcharge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_29_TC_1_getratestochange</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_30_TC_1_getgroupcancellationcharge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_31_TC_1_getdepositamount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_56_TC_1_checknightauditstatus</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_70_TC_1_guestlookup</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UC_FD_9_TC_1_getroomtypestochange</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_Automation_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API Automation test run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_Automation_test_run');
+function tableData_API_Automation_test_run() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UC_FD_29_TC_1_getratestochange')
+data.setCell(0, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(0, 3, 9786);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'UC_FD_54_TC_1_addoccupancies')
+data.setCell(1, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(1, 3, 9376);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'UC_FD_4_TC_1_commitedbooking')
+data.setCell(2, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(2, 3, 5525);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'UC_FD_5_TC_1_closeeditbooking')
+data.setCell(3, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(3, 3, 4948);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'UC_FD_37_TC_1_movebooking')
+data.setCell(4, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(4, 3, 4584);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'UC_FD_84_TC_1_sendbookingemail')
+data.setCell(5, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(5, 3, 4503);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'UC_FD_26_TC_1_getearlycheckincharge')
+data.setCell(6, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(6, 3, 4019);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'UC_FD_22_TC_1_getgroup')
+data.setCell(7, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(7, 3, 3873);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'UC_FD_57_TC_1_consolidateaccount')
+data.setCell(8, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(8, 3, 3587);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'UC_FD_3_TC_1_editbooking')
+data.setCell(9, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(9, 3, 3542);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'UC_FD_27_TC_1_getearlycheckoutcharge')
+data.setCell(10, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(10, 3, 3490);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'UC_FD_58_TC_1_deleteproformainvoice')
+data.setCell(11, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(11, 3, 3478);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'UC_FD_31_TC_1_getdepositamount')
+data.setCell(12, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(12, 3, 3419);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'UC_FD_30_TC_1_getgroupcancellationcharge')
+data.setCell(13, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(13, 3, 3395);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'UC_FD_59_TC_1_earlycheckout')
+data.setCell(14, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(14, 3, 3346);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'UC_FD_55_TC_1_changepayterm')
+data.setCell(15, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(15, 3, 3262);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'UC_FD_23_TC_1_getaccountstatements')
+data.setCell(16, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(16, 3, 3217);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'UC_FD_21_TC_1_getbooking')
+data.setCell(17, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(17, 3, 3199);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'UC_FD_24_TC_1_getinvoices')
+data.setCell(18, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(18, 3, 2650);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'UC_FD_50_TC_1_adddnrs')
+data.setCell(19, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(19, 3, 2621);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'UC_FD_52_TC_1_editdnrs')
+data.setCell(20, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(20, 3, 2617);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'UC_FD_51_TC_1_deletednrs')
+data.setCell(21, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(21, 3, 2567);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'UC_FD_19_TC_1_getbookings')
+data.setCell(22, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(22, 3, 2187);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'UC_FD_20_TC_1_getbookingsearch')
+data.setCell(23, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(23, 3, 1472);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'UC_FD_70_TC_1_guestlookup')
+data.setCell(24, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(24, 3, 1437);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'UC_FD_17_TC_1_getcheckins')
+data.setCell(25, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(25, 3, 1367);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'UC_FD_13_TC_1_getusers')
+data.setCell(26, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(26, 3, 1358);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'UC_FD_15_TC_1_gethousestatus')
+data.setCell(27, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(27, 3, 1347);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'UC_FD_16_TC_1_gethoteldata')
+data.setCell(28, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(28, 3, 1248);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'UC_FD_18_TC_1_getcheckouts')
+data.setCell(29, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(29, 3, 1248);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'UC_FD_9_TC_1_getroomtypestochange')
+data.setCell(30, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(30, 3, 1220);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'UC_FD_14_TC_1_getdnrs')
+data.setCell(31, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(31, 3, 1176);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'UC_FD_25_TC_1_getinvoice')
+data.setCell(32, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(32, 3, 1162);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'UC_FD_53_TC_1_keepalive')
+data.setCell(33, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(33, 3, 1131);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'UC_FD_56_TC_1_checknightauditstatus')
+data.setCell(34, 2, 'com.hms.APITestingUsingUnirest.SmokeTest')
+data.setCell(34, 3, 1124);
+window.suiteTableData['API_Automation_test_run']= { tableData: data, tableDiv: 'times-div-API_Automation_test_run'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-API_Automation_test_run">
+              </div> <!-- times-div-API_Automation_test_run -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_Automation_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API Automation test run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_Automation_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">37 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.hms.APITestingUsingUnirest.SmokeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">UC_AD_3_TC_1_logout</span>
+                <br/>
+                <span class="ignored-method-name">UC_FD_1_TC_1_login</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_6_TC_1_getcounters</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_11_TC_1_edituser</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_16_TC_1_editpackageprice</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_8_TC_1_getagents</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_13_TC_1_getzonelist</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_8_TC_1_savebooking</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_13_TC_1_createcorporate</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_15_TC_1_getpos</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_9_TC_1_getcorporates</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_5_TC_1_getallpaytypes</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_4_TC_1_deletefromcart</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_6_TC_1_getaddons</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_10_TC_1_createuser</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_1_TC_1_search</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_17_TC_1_bookingrestrictions</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_2_TC_1_addtocart</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_15_TC_1_saveemailconfiguration</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_7_TC_1_attachaddons</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_4_TC_1_getusertypes</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_14_TC_1_editcorporate</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_3_TC_1_loadcart</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_16_TC_1_getposproduct</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_14_TC_1_bestsuggestedrate</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_7_TC_1_getusers</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_9_TC_1_confirmbooking</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_10_TC_1_gethoteloptions</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_11_TC_1_getpaytype</span>
+                <br/>
+                <span class="ignored-method-name">UC_FD_34_TC_1_unassignroom</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_12_TC_1_getcountrylist</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_19_TC_1_clearcart</span>
+                <br/>
+                <span class="ignored-method-name">UC_WB_18_TC_1_occupancywiserate</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_17_TC_1_opencloseoverbooking</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_1_TC_1_wsauth</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_2_TC_1_login</span>
+                <br/>
+                <span class="ignored-method-name">UC_AD_12_TC_1_createagent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_Automation_test_run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hms.APITestingUsingUnirest.SmokeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforesuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_13_TC_1_getusers</span>
+                <span class="method-start">5634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_14_TC_1_getdnrs</span>
+                <span class="method-start">6997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_15_TC_1_gethousestatus</span>
+                <span class="method-start">8175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_16_TC_1_gethoteldata</span>
+                <span class="method-start">9524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_17_TC_1_getcheckins</span>
+                <span class="method-start">10773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_18_TC_1_getcheckouts</span>
+                <span class="method-start">12142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_19_TC_1_getbookings</span>
+                <span class="method-start">13391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_20_TC_1_getbookingsearch</span>
+                <span class="method-start">15579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_21_TC_1_getbooking</span>
+                <span class="method-start">17056 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_22_TC_1_getgroup</span>
+                <span class="method-start">20259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_23_TC_1_getaccountstatements</span>
+                <span class="method-start">24134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_24_TC_1_getinvoices</span>
+                <span class="method-start">27354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_25_TC_1_getinvoice</span>
+                <span class="method-start">30005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_26_TC_1_getearlycheckincharge</span>
+                <span class="method-start">31168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_27_TC_1_getearlycheckoutcharge</span>
+                <span class="method-start">35188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_29_TC_1_getratestochange</span>
+                <span class="method-start">38679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UC_FD_30_TC_1_getgroupcancellationcharge</span>
+                <span class="method-start">48466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_31_TC_1_getdepositamount</span>
+                <span class="method-start">51863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UC_FD_37_TC_1_movebooking</span>
+                <span class="method-start">55283 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_3_TC_1_editbooking</span>
+                <span class="method-start">59868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_4_TC_1_commitedbooking</span>
+                <span class="method-start">63411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_50_TC_1_adddnrs</span>
+                <span class="method-start">68937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_51_TC_1_deletednrs</span>
+                <span class="method-start">71559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_52_TC_1_editdnrs</span>
+                <span class="method-start">74127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_53_TC_1_keepalive</span>
+                <span class="method-start">76746 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UC_FD_54_TC_1_addoccupancies</span>
+                <span class="method-start">77882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_55_TC_1_changepayterm</span>
+                <span class="method-start">87260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_56_TC_1_checknightauditstatus</span>
+                <span class="method-start">90523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_57_TC_1_consolidateaccount</span>
+                <span class="method-start">91648 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_58_TC_1_deleteproformainvoice</span>
+                <span class="method-start">95236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_59_TC_1_earlycheckout</span>
+                <span class="method-start">98715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_5_TC_1_closeeditbooking</span>
+                <span class="method-start">102062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_70_TC_1_guestlookup</span>
+                <span class="method-start">107011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_84_TC_1_sendbookingemail</span>
+                <span class="method-start">108448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UC_FD_9_TC_1_getroomtypestochange</span>
+                <span class="method-start">112951 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
