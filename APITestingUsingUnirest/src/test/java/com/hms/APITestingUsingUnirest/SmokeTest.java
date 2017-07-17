@@ -296,7 +296,7 @@ public void UC_FD_31_TC_1_getdepositamount()
 	Assert.assertEquals(s1, "success");
 }
 
-@Test(groups = {"tst11"})
+@Test(groups = {"frontdeskview"})
 public void UC_FD_34_TC_1_unassignroom()
 {
 	Unassignroom unassignroomobj = new Unassignroom();

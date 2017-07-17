@@ -26,7 +26,7 @@ public class CommonConfig
 	public static String dailyratecode1hotelid1 = "BB";
 	public static String dailyratecode2hotelid2 = "BB";
 	
-	public static String nightauditdate = "2015-06-09";
-	public static String nightauditdate1 = "2015-06-10";
-	public static String nightauditdate2 = "2015-06-11";
+	public static String nightauditdate = "2015-06-10";
+	public static String nightauditdate1 = "2015-06-11";
+	public static String nightauditdate2 = "2015-06-12";
 }

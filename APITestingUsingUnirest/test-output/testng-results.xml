@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="35" passed="32">
+<testng-results skipped="0" failed="6" total="36" passed="30">
   <reporter-output>
   </reporter-output>
-  <suite name="API Automation test run" duration-ms="108554" started-at="2017-07-10T11:22:59Z" finished-at="2017-07-10T11:24:48Z">
+  <suite name="API Automation test run" duration-ms="118637" started-at="2017-07-17T07:34:52Z" finished-at="2017-07-17T07:36:51Z">
     <groups>
       <group name="frontdeskcreate">
         <method signature="SmokeTest.UC_FD_37_TC_1_movebooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_37_TC_1_movebooking" class="com.hms.APITestingUsingUnirest.SmokeTest"/>
@@ -41,82 +41,83 @@
         <method signature="SmokeTest.UC_FD_29_TC_1_getratestochange()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_29_TC_1_getratestochange" class="com.hms.APITestingUsingUnirest.SmokeTest"/>
         <method signature="SmokeTest.UC_FD_30_TC_1_getgroupcancellationcharge()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_30_TC_1_getgroupcancellationcharge" class="com.hms.APITestingUsingUnirest.SmokeTest"/>
         <method signature="SmokeTest.UC_FD_31_TC_1_getdepositamount()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_31_TC_1_getdepositamount" class="com.hms.APITestingUsingUnirest.SmokeTest"/>
+        <method signature="SmokeTest.UC_FD_34_TC_1_unassignroom()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_34_TC_1_unassignroom" class="com.hms.APITestingUsingUnirest.SmokeTest"/>
         <method signature="SmokeTest.UC_FD_56_TC_1_checknightauditstatus()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_56_TC_1_checknightauditstatus" class="com.hms.APITestingUsingUnirest.SmokeTest"/>
         <method signature="SmokeTest.UC_FD_70_TC_1_guestlookup()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_70_TC_1_guestlookup" class="com.hms.APITestingUsingUnirest.SmokeTest"/>
         <method signature="SmokeTest.UC_FD_9_TC_1_getroomtypestochange()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_9_TC_1_getroomtypestochange" class="com.hms.APITestingUsingUnirest.SmokeTest"/>
       </group> <!-- frontdeskview -->
     </groups>
-    <test name="Smoke Test" duration-ms="108554" started-at="2017-07-10T11:22:59Z" finished-at="2017-07-10T11:24:48Z">
+    <test name="Smoke Test" duration-ms="118637" started-at="2017-07-17T07:34:52Z" finished-at="2017-07-17T07:36:51Z">
       <class name="com.hms.APITestingUsingUnirest.SmokeTest">
-        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="beforesuite" is-config="true" duration-ms="5619" started-at="2017-07-10T16:52:54Z" finished-at="2017-07-10T16:52:59Z">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="beforesuite" is-config="true" duration-ms="5901" started-at="2017-07-17T13:04:46Z" finished-at="2017-07-17T13:04:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method status="PASS" signature="UC_FD_13_TC_1_getusers()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_13_TC_1_getusers" duration-ms="1358" started-at="2017-07-10T16:52:59Z" finished-at="2017-07-10T16:53:01Z">
+        <test-method status="PASS" signature="UC_FD_13_TC_1_getusers()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_13_TC_1_getusers" duration-ms="1222" started-at="2017-07-17T13:04:52Z" finished-at="2017-07-17T13:04:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_13_TC_1_getusers -->
-        <test-method status="PASS" signature="UC_FD_14_TC_1_getdnrs()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_14_TC_1_getdnrs" duration-ms="1176" started-at="2017-07-10T16:53:01Z" finished-at="2017-07-10T16:53:02Z">
+        <test-method status="PASS" signature="UC_FD_14_TC_1_getdnrs()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_14_TC_1_getdnrs" duration-ms="1247" started-at="2017-07-17T13:04:53Z" finished-at="2017-07-17T13:04:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_14_TC_1_getdnrs -->
-        <test-method status="PASS" signature="UC_FD_15_TC_1_gethousestatus()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_15_TC_1_gethousestatus" duration-ms="1347" started-at="2017-07-10T16:53:02Z" finished-at="2017-07-10T16:53:03Z">
+        <test-method status="PASS" signature="UC_FD_15_TC_1_gethousestatus()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_15_TC_1_gethousestatus" duration-ms="1428" started-at="2017-07-17T13:04:54Z" finished-at="2017-07-17T13:04:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_15_TC_1_gethousestatus -->
-        <test-method status="PASS" signature="UC_FD_16_TC_1_gethoteldata()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_16_TC_1_gethoteldata" duration-ms="1248" started-at="2017-07-10T16:53:03Z" finished-at="2017-07-10T16:53:05Z">
+        <test-method status="PASS" signature="UC_FD_16_TC_1_gethoteldata()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_16_TC_1_gethoteldata" duration-ms="1751" started-at="2017-07-17T13:04:56Z" finished-at="2017-07-17T13:04:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_16_TC_1_gethoteldata -->
-        <test-method status="PASS" signature="UC_FD_17_TC_1_getcheckins()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_17_TC_1_getcheckins" duration-ms="1367" started-at="2017-07-10T16:53:05Z" finished-at="2017-07-10T16:53:06Z">
+        <test-method status="PASS" signature="UC_FD_17_TC_1_getcheckins()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_17_TC_1_getcheckins" duration-ms="4268" started-at="2017-07-17T13:04:58Z" finished-at="2017-07-17T13:05:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_17_TC_1_getcheckins -->
-        <test-method status="PASS" signature="UC_FD_18_TC_1_getcheckouts()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_18_TC_1_getcheckouts" duration-ms="1248" started-at="2017-07-10T16:53:06Z" finished-at="2017-07-10T16:53:07Z">
+        <test-method status="PASS" signature="UC_FD_18_TC_1_getcheckouts()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_18_TC_1_getcheckouts" duration-ms="1440" started-at="2017-07-17T13:05:02Z" finished-at="2017-07-17T13:05:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_18_TC_1_getcheckouts -->
-        <test-method status="PASS" signature="UC_FD_19_TC_1_getbookings()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_19_TC_1_getbookings" duration-ms="2187" started-at="2017-07-10T16:53:07Z" finished-at="2017-07-10T16:53:09Z">
+        <test-method status="PASS" signature="UC_FD_19_TC_1_getbookings()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_19_TC_1_getbookings" duration-ms="1922" started-at="2017-07-17T13:05:03Z" finished-at="2017-07-17T13:05:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_19_TC_1_getbookings -->
-        <test-method status="PASS" signature="UC_FD_20_TC_1_getbookingsearch()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_20_TC_1_getbookingsearch" duration-ms="1472" started-at="2017-07-10T16:53:09Z" finished-at="2017-07-10T16:53:11Z">
+        <test-method status="PASS" signature="UC_FD_20_TC_1_getbookingsearch()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_20_TC_1_getbookingsearch" duration-ms="2056" started-at="2017-07-17T13:05:05Z" finished-at="2017-07-17T13:05:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_20_TC_1_getbookingsearch -->
-        <test-method status="PASS" signature="UC_FD_21_TC_1_getbooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_21_TC_1_getbooking" duration-ms="3199" started-at="2017-07-10T16:53:11Z" finished-at="2017-07-10T16:53:14Z">
+        <test-method status="PASS" signature="UC_FD_21_TC_1_getbooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_21_TC_1_getbooking" duration-ms="3231" started-at="2017-07-17T13:05:07Z" finished-at="2017-07-17T13:05:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_21_TC_1_getbooking -->
-        <test-method status="PASS" signature="UC_FD_22_TC_1_getgroup()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_22_TC_1_getgroup" duration-ms="3873" started-at="2017-07-10T16:53:14Z" finished-at="2017-07-10T16:53:18Z">
+        <test-method status="PASS" signature="UC_FD_22_TC_1_getgroup()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_22_TC_1_getgroup" duration-ms="3944" started-at="2017-07-17T13:05:10Z" finished-at="2017-07-17T13:05:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_22_TC_1_getgroup -->
-        <test-method status="PASS" signature="UC_FD_23_TC_1_getaccountstatements()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_23_TC_1_getaccountstatements" duration-ms="3217" started-at="2017-07-10T16:53:18Z" finished-at="2017-07-10T16:53:21Z">
+        <test-method status="PASS" signature="UC_FD_23_TC_1_getaccountstatements()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_23_TC_1_getaccountstatements" duration-ms="3422" started-at="2017-07-17T13:05:14Z" finished-at="2017-07-17T13:05:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_23_TC_1_getaccountstatements -->
-        <test-method status="PASS" signature="UC_FD_24_TC_1_getinvoices()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_24_TC_1_getinvoices" duration-ms="2650" started-at="2017-07-10T16:53:21Z" finished-at="2017-07-10T16:53:24Z">
+        <test-method status="PASS" signature="UC_FD_24_TC_1_getinvoices()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_24_TC_1_getinvoices" duration-ms="2920" started-at="2017-07-17T13:05:18Z" finished-at="2017-07-17T13:05:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_24_TC_1_getinvoices -->
-        <test-method status="PASS" signature="UC_FD_25_TC_1_getinvoice()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_25_TC_1_getinvoice" duration-ms="1162" started-at="2017-07-10T16:53:24Z" finished-at="2017-07-10T16:53:25Z">
+        <test-method status="PASS" signature="UC_FD_25_TC_1_getinvoice()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_25_TC_1_getinvoice" duration-ms="1480" started-at="2017-07-17T13:05:21Z" finished-at="2017-07-17T13:05:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_25_TC_1_getinvoice -->
-        <test-method status="PASS" signature="UC_FD_26_TC_1_getearlycheckincharge()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_26_TC_1_getearlycheckincharge" duration-ms="4019" started-at="2017-07-10T16:53:25Z" finished-at="2017-07-10T16:53:29Z">
+        <test-method status="PASS" signature="UC_FD_26_TC_1_getearlycheckincharge()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_26_TC_1_getearlycheckincharge" duration-ms="4305" started-at="2017-07-17T13:05:22Z" finished-at="2017-07-17T13:05:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_26_TC_1_getearlycheckincharge -->
-        <test-method status="PASS" signature="UC_FD_27_TC_1_getearlycheckoutcharge()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_27_TC_1_getearlycheckoutcharge" duration-ms="3490" started-at="2017-07-10T16:53:29Z" finished-at="2017-07-10T16:53:32Z">
+        <test-method status="PASS" signature="UC_FD_27_TC_1_getearlycheckoutcharge()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_27_TC_1_getearlycheckoutcharge" duration-ms="2884" started-at="2017-07-17T13:05:27Z" finished-at="2017-07-17T13:05:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_27_TC_1_getearlycheckoutcharge -->
-        <test-method status="PASS" signature="UC_FD_29_TC_1_getratestochange()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_29_TC_1_getratestochange" duration-ms="9786" started-at="2017-07-10T16:53:32Z" finished-at="2017-07-10T16:53:42Z">
+        <test-method status="PASS" signature="UC_FD_29_TC_1_getratestochange()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_29_TC_1_getratestochange" duration-ms="9251" started-at="2017-07-17T13:05:29Z" finished-at="2017-07-17T13:05:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_29_TC_1_getratestochange -->
-        <test-method status="FAIL" signature="UC_FD_30_TC_1_getgroupcancellationcharge()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_30_TC_1_getgroupcancellationcharge" duration-ms="3395" started-at="2017-07-10T16:53:42Z" finished-at="2017-07-10T16:53:46Z">
+        <test-method status="FAIL" signature="UC_FD_30_TC_1_getgroupcancellationcharge()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_30_TC_1_getgroupcancellationcharge" duration-ms="3085" started-at="2017-07-17T13:05:39Z" finished-at="2017-07-17T13:05:42Z">
           <exception class="org.json.JSONException">
             <message>
               <![CDATA[JSONArray[-2] not found.]]>
@@ -159,17 +160,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_30_TC_1_getgroupcancellationcharge -->
-        <test-method status="PASS" signature="UC_FD_31_TC_1_getdepositamount()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_31_TC_1_getdepositamount" duration-ms="3419" started-at="2017-07-10T16:53:46Z" finished-at="2017-07-10T16:53:49Z">
+        <test-method status="PASS" signature="UC_FD_31_TC_1_getdepositamount()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_31_TC_1_getdepositamount" duration-ms="2888" started-at="2017-07-17T13:05:42Z" finished-at="2017-07-17T13:05:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_31_TC_1_getdepositamount -->
-        <test-method status="FAIL" signature="UC_FD_37_TC_1_movebooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_37_TC_1_movebooking" duration-ms="4584" started-at="2017-07-10T16:53:49Z" finished-at="2017-07-10T16:53:54Z">
+        <test-method status="PASS" signature="UC_FD_34_TC_1_unassignroom()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_34_TC_1_unassignroom" duration-ms="9072" started-at="2017-07-17T13:05:45Z" finished-at="2017-07-17T13:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC_FD_34_TC_1_unassignroom -->
+        <test-method status="FAIL" signature="UC_FD_37_TC_1_movebooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_37_TC_1_movebooking" duration-ms="4078" started-at="2017-07-17T13:05:54Z" finished-at="2017-07-17T13:05:58Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [success] but found [move not possible, booking not in valid for move]]]>
+              <![CDATA[expected [success] but found [move not possible, checkin booking required roomId]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [success] but found [move not possible, booking not in valid for move]
+              <![CDATA[java.lang.AssertionError: expected [success] but found [move not possible, checkin booking required roomId]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -206,43 +211,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_37_TC_1_movebooking -->
-        <test-method status="PASS" signature="UC_FD_3_TC_1_editbooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_3_TC_1_editbooking" duration-ms="3542" started-at="2017-07-10T16:53:54Z" finished-at="2017-07-10T16:53:57Z">
+        <test-method status="PASS" signature="UC_FD_3_TC_1_editbooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_3_TC_1_editbooking" duration-ms="3837" started-at="2017-07-17T13:05:58Z" finished-at="2017-07-17T13:06:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_3_TC_1_editbooking -->
-        <test-method status="PASS" signature="UC_FD_4_TC_1_commitedbooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_4_TC_1_commitedbooking" duration-ms="5525" started-at="2017-07-10T16:53:57Z" finished-at="2017-07-10T16:54:03Z">
+        <test-method status="PASS" signature="UC_FD_4_TC_1_commitedbooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_4_TC_1_commitedbooking" duration-ms="4829" started-at="2017-07-17T13:06:02Z" finished-at="2017-07-17T13:06:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_4_TC_1_commitedbooking -->
-        <test-method status="PASS" signature="UC_FD_50_TC_1_adddnrs()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_50_TC_1_adddnrs" duration-ms="2621" started-at="2017-07-10T16:54:03Z" finished-at="2017-07-10T16:54:05Z">
+        <test-method status="PASS" signature="UC_FD_50_TC_1_adddnrs()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_50_TC_1_adddnrs" duration-ms="3068" started-at="2017-07-17T13:06:07Z" finished-at="2017-07-17T13:06:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_50_TC_1_adddnrs -->
-        <test-method status="PASS" signature="UC_FD_51_TC_1_deletednrs()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_51_TC_1_deletednrs" duration-ms="2567" started-at="2017-07-10T16:54:05Z" finished-at="2017-07-10T16:54:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UC_FD_51_TC_1_deletednrs -->
-        <test-method status="PASS" signature="UC_FD_52_TC_1_editdnrs()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_52_TC_1_editdnrs" duration-ms="2617" started-at="2017-07-10T16:54:08Z" finished-at="2017-07-10T16:54:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UC_FD_52_TC_1_editdnrs -->
-        <test-method status="PASS" signature="UC_FD_53_TC_1_keepalive()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_53_TC_1_keepalive" duration-ms="1131" started-at="2017-07-10T16:54:11Z" finished-at="2017-07-10T16:54:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UC_FD_53_TC_1_keepalive -->
-        <test-method status="FAIL" signature="UC_FD_54_TC_1_addoccupancies()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_54_TC_1_addoccupancies" duration-ms="9376" started-at="2017-07-10T16:54:12Z" finished-at="2017-07-10T16:54:21Z">
+        <test-method status="FAIL" signature="UC_FD_51_TC_1_deletednrs()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_51_TC_1_deletednrs" duration-ms="2468" started-at="2017-07-17T13:06:10Z" finished-at="2017-07-17T13:06:12Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [success] but found [booking status is Checkout(fvtlzphAgw||)]]]>
+              <![CDATA[expected [success] but found [DNR delete not possible as DNR(fXNo4hC6) is before Night Audit Date.]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [success] but found [booking status is Checkout(fvtlzphAgw||)]
+              <![CDATA[java.lang.AssertionError: expected [success] but found [DNR delete not possible as DNR(fXNo4hC6) is before Night Audit Date.]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_54_TC_1_addoccupancies(SmokeTest.java:382)
+	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_51_TC_1_deletednrs(SmokeTest.java:354)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -272,40 +265,169 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- UC_FD_51_TC_1_deletednrs -->
+        <test-method status="FAIL" signature="UC_FD_52_TC_1_editdnrs()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_52_TC_1_editdnrs" duration-ms="2469" started-at="2017-07-17T13:06:12Z" finished-at="2017-07-17T13:06:15Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [Not possible to edit DNR]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [Not possible to edit DNR]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_52_TC_1_editdnrs(SmokeTest.java:364)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC_FD_52_TC_1_editdnrs -->
+        <test-method status="PASS" signature="UC_FD_53_TC_1_keepalive()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_53_TC_1_keepalive" duration-ms="1372" started-at="2017-07-17T13:06:15Z" finished-at="2017-07-17T13:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC_FD_53_TC_1_keepalive -->
+        <test-method status="PASS" signature="UC_FD_54_TC_1_addoccupancies()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_54_TC_1_addoccupancies" duration-ms="9840" started-at="2017-07-17T13:06:16Z" finished-at="2017-07-17T13:06:26Z">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- UC_FD_54_TC_1_addoccupancies -->
-        <test-method status="PASS" signature="UC_FD_55_TC_1_changepayterm()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_55_TC_1_changepayterm" duration-ms="3262" started-at="2017-07-10T16:54:21Z" finished-at="2017-07-10T16:54:24Z">
+        <test-method status="FAIL" signature="UC_FD_55_TC_1_changepayterm()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_55_TC_1_changepayterm" duration-ms="3398" started-at="2017-07-17T13:06:26Z" finished-at="2017-07-17T13:06:29Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [This Reservation is Already Opened by harlin mirza(dia0077)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [This Reservation is Already Opened by harlin mirza(dia0077)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_55_TC_1_changepayterm(SmokeTest.java:391)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_55_TC_1_changepayterm -->
-        <test-method status="PASS" signature="UC_FD_56_TC_1_checknightauditstatus()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_56_TC_1_checknightauditstatus" duration-ms="1124" started-at="2017-07-10T16:54:24Z" finished-at="2017-07-10T16:54:25Z">
+        <test-method status="PASS" signature="UC_FD_56_TC_1_checknightauditstatus()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_56_TC_1_checknightauditstatus" duration-ms="1153" started-at="2017-07-17T13:06:29Z" finished-at="2017-07-17T13:06:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_56_TC_1_checknightauditstatus -->
-        <test-method status="PASS" signature="UC_FD_57_TC_1_consolidateaccount()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_57_TC_1_consolidateaccount" duration-ms="3587" started-at="2017-07-10T16:54:25Z" finished-at="2017-07-10T16:54:29Z">
+        <test-method status="PASS" signature="UC_FD_57_TC_1_consolidateaccount()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_57_TC_1_consolidateaccount" duration-ms="2815" started-at="2017-07-17T13:06:30Z" finished-at="2017-07-17T13:06:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_57_TC_1_consolidateaccount -->
-        <test-method status="PASS" signature="UC_FD_58_TC_1_deleteproformainvoice()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_58_TC_1_deleteproformainvoice" duration-ms="3478" started-at="2017-07-10T16:54:29Z" finished-at="2017-07-10T16:54:32Z">
+        <test-method status="FAIL" signature="UC_FD_58_TC_1_deleteproformainvoice()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_58_TC_1_deleteproformainvoice" duration-ms="2814" started-at="2017-07-17T13:06:33Z" finished-at="2017-07-17T13:06:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [This Reservation is Already Opened by harlin mirza(dia0077)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [This Reservation is Already Opened by harlin mirza(dia0077)]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.hms.APITestingUsingUnirest.SmokeTest.UC_FD_58_TC_1_deleteproformainvoice(SmokeTest.java:418)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_58_TC_1_deleteproformainvoice -->
-        <test-method status="PASS" signature="UC_FD_59_TC_1_earlycheckout()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_59_TC_1_earlycheckout" duration-ms="3346" started-at="2017-07-10T16:54:32Z" finished-at="2017-07-10T16:54:36Z">
+        <test-method status="PASS" signature="UC_FD_59_TC_1_earlycheckout()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_59_TC_1_earlycheckout" duration-ms="3190" started-at="2017-07-17T13:06:36Z" finished-at="2017-07-17T13:06:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_59_TC_1_earlycheckout -->
-        <test-method status="PASS" signature="UC_FD_5_TC_1_closeeditbooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_5_TC_1_closeeditbooking" duration-ms="4948" started-at="2017-07-10T16:54:36Z" finished-at="2017-07-10T16:54:41Z">
+        <test-method status="PASS" signature="UC_FD_5_TC_1_closeeditbooking()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_5_TC_1_closeeditbooking" duration-ms="4571" started-at="2017-07-17T13:06:39Z" finished-at="2017-07-17T13:06:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_5_TC_1_closeeditbooking -->
-        <test-method status="PASS" signature="UC_FD_70_TC_1_guestlookup()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_70_TC_1_guestlookup" duration-ms="1437" started-at="2017-07-10T16:54:41Z" finished-at="2017-07-10T16:54:42Z">
+        <test-method status="PASS" signature="UC_FD_70_TC_1_guestlookup()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_70_TC_1_guestlookup" duration-ms="1395" started-at="2017-07-17T13:06:44Z" finished-at="2017-07-17T13:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_70_TC_1_guestlookup -->
-        <test-method status="PASS" signature="UC_FD_84_TC_1_sendbookingemail()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_84_TC_1_sendbookingemail" duration-ms="4503" started-at="2017-07-10T16:54:42Z" finished-at="2017-07-10T16:54:47Z">
+        <test-method status="PASS" signature="UC_FD_84_TC_1_sendbookingemail()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_84_TC_1_sendbookingemail" duration-ms="4255" started-at="2017-07-17T13:06:45Z" finished-at="2017-07-17T13:06:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_84_TC_1_sendbookingemail -->
-        <test-method status="PASS" signature="UC_FD_9_TC_1_getroomtypestochange()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_9_TC_1_getroomtypestochange" duration-ms="1220" started-at="2017-07-10T16:54:47Z" finished-at="2017-07-10T16:54:48Z">
+        <test-method status="PASS" signature="UC_FD_9_TC_1_getroomtypestochange()[pri:0, instance:com.hms.APITestingUsingUnirest.SmokeTest@9f0666]" name="UC_FD_9_TC_1_getroomtypestochange" duration-ms="1175" started-at="2017-07-17T13:06:49Z" finished-at="2017-07-17T13:06:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UC_FD_9_TC_1_getroomtypestochange -->

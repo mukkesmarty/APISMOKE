@@ -59,6 +59,7 @@ static String responseJSONString;
 		
 		try
 		{
+			//
 			System.out.println("hello getearlycheckincharge:: try block::");
 			
 			serverurl = CommonConfig.serverurl;
