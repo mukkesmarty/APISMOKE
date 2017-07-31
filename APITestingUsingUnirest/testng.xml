@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation test run">
+  <test name="Smoke Test">
+  <groups>
+    <define name = "admin">
+      <include name = "adminview"/>
+      <include name = "admincreate"/>
+    </define>
+    <define name = "frontdesk">
+      <include name = "frontdeskview"/>
+      <include name = "frontdeskcreate"/>
+    </define>
+    <define name = "web">
+    	<include name = "webview"/>
+    	<include name = "webcreate"/>
+    </define>
+    <define name = "tst">
+    <include name= "tst1"/>
+    </define>
+    <run>
+      <exclude name ="admin" />
+      <include name ="frontdesk"/>
+      <exclude name = "web"/>
+      <exclude name = "tst"/>
+    </run>
+  </groups>
+    <classes>
+      <class name="com.hms.APITestingUsingUnirest.SmokeTest"/>
+    </classes>
+  </test>
+</suite>
